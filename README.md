@@ -1,0 +1,1 @@
+# STM32N6-Boot-ROM-Traces
