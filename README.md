@@ -6,16 +6,18 @@
 ## Description
 
 The purpose of this project is to explain:
-* How to sign/encrypt a basic application (FSBL) loaded by BootRom
-* Which OTPs are involved in BootRom authenticity and integrity checks
-* How to obtain BootRom traces
-* How to set the device to Secured-locked state
+* How to sign/encrypt a basic application (FSBL) loaded by BootRom,
+* Which OTPs are involved in BootRom authenticity and integrity checks,
+* How to obtain BootRom traces,
+* How to set the device to secured-locked state,
+* How to load a new FSBL whith the device in the secured-locked state.
 
 ## Content
 
-This project consists of two folders:
-* BootRom_Traces: Contains scripts for performing security operations on an STM32N6 MCU
-* Template_BootRom_traces: A template based on those delivered in the STM32CubeN6 firmware, with added capability to obtain BootRom traces. This template is intended for STM32N657X0H3QU devices.
+This project consists of three folders:
+* The `./BootRom_Traces` folder, containing scripts for performing security operations on an STM32N6 MCU.
+* The `./Template_BootRom_traces` folder, a template based on those delivered in the STM32CubeN6 firmware, with added capability to obtain BootRom traces. This template is intended for STM32N657X0H3QU devices.
+* The `./Load_new_FSBL_locked_state` folder, containing the material to load a new FSBL is secured-locked state.
 
 ## Supported toolchains
 
